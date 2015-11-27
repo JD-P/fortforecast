@@ -102,7 +102,7 @@ global feed.
 user pages will tell you what somebody has been working on, broadcast their time
 spent working in things like pomodoro sessions, show their recent predictions,
 give a sanctioned way to ask for/display contact information, broadcast 
-precommitments, and of course show biographical information like what time they
+commitments, and of course show biographical information like what time they
 joined the site and their portrait at rest.
 
 ## Guidelines, Essays, Precedent ##
