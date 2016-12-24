@@ -1,0 +1,58 @@
+What does a document need:
+
+- author
+- site/organization/etc
+- title
+- abstract
+- keywords/topics
+- date of creation/etc
+- date retrieved
+- text
+- url
+
+
+DB Tables:
+
+# documents #
+
+PRIMARY KEY id,author,title,date_created
+
+id (int) - The internal document id
+
+title (text) - The documents title
+
+abstract (text) - A written abstract of the documents contents
+
+text (text) - The actual document text
+
+date_created (datetime) - The date and time that the document was released
+
+date_retrieved (datetime) - The date and time that the document was retrieved by FF
+
+# descriptors #
+
+PRIMARY KEY id,descriptor
+
+id (int) - The internal document id the descriptor is associated with
+
+descriptor (text) - A keyword or subject heading associated with a document taken from a controlled vocabulary.
+
+# authors #
+
+id (int) - The internal document id the author is associated with
+
+author (text) - An author of the document given by the id (there may be more than one)
+
+# urls #
+
+id (int) - The internal document id the url is associated with
+
+url (text) - A url of the document, there may be more than one because some authors crosspost.
+
+# organizations #
+
+id (int) - The internal document id the organization is associated with
+
+organization (text) - The title of the organization
+
+
