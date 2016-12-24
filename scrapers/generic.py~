@@ -1,0 +1,3 @@
+# Generic scraper for FortForecast search engine
+
+print("This is a test!")
